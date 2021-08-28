@@ -7,6 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Request</title>
 
+	<!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet" />
+
   <!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="//code.jquery.com/jquery.min.js"></script>
@@ -16,13 +21,13 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="padding">
 
   <!-- Nav Bar -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
+        <a class="navbar-brand" href="#">connectivIT</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <li id="Home"><a href="Home.html">Home</a></li>
@@ -34,114 +39,86 @@
     </div>
   </nav>
 
+  <!-- FORM -->
+  <h2>Request Form</h2>
+  <h4>Once the request is submitted (see below) you will receive an email with the date and time our team will arrive to drop the technology off at your doorstep. The technology will be wiped of all data and will also be fully sanitized to ensure your safety.</h4>
+  <hr>
 	<form>
-    <table>
-      <tr>
-		  <table>
 			<!-- Enter your first name -->
-			<td>
 				<div class="form-group">
 					<label for="firstName">First Name </label>
           <input type="name1" class="form-control" id="firstName">
       </div>
-      </td>
 <!-- Enter your last name -->
-  <td>
       <div class="form-group">
         <label for="lastName">Last Name </label>
         <input type="name2" class="form-control" id="lastName">
       </div>
-  </td>
-  </table>
-  <tr>
 
 <!-- Enter your email -->
-<tr>
       <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-</tr>
 
 <!-- Enter your phone number -->
-<tr>
       <div class="form-group">
         <label for="phoneNumber">Home / Mobile Phone Number </label>
         <input type="phone" class="form-control" id="phoneNumber">
       </div>
-</tr>
 
 <!-- Enter your first address line -->
-<tr>
-<table>
-      <td>
+
       <div class="form-group">
         <label for="firstAddress">Address Line 1 </label>
         <input type="address1" class="form-control" id="firstAddress">
       </div>
-    </td>
 
 <!-- Enter your second address line (optional) -->
-    <td>
       <div class="form-group">
         <label for="secondAddress">Address Line 2 </label>
         <input type="address2" class="form-control" id="secondAddress">
       </div>
-      </td>
-</table>
-</tr>
 
 <!-- Enter your city / town -->
-<tr>
-<table>
-  <td>
+
       <div class="form-group">
         <label for="cityTown">City / Town </label>
         <input type="city" class="form-control" id="cityTown">
       </div>
-  </td>
 
 <!-- Enter your province -->
-  <td>
-      <div class="form-group">
-        <label for="provinceName">Province </label>
-        <input type="province" class="form-control" id="provinceName">
-      </div>
-  </td>
+		<div class="form-group">
+			<label for="provinceName">Province </label>
+			<select type="province" class="form-control" id="provinceName">
+			<option selected>Choose...</option>
+			<option>Alberta</option>
+			<option>British Columbia</option>
+			<option>Manitoba</option>
+			<option>New Brunswick</option>
+			<option>Newfoundland</option>
+			<option>Nova Scotia</option>
+			<option>Ontario</option>
+			<option>Prince Edward Island</option>
+			<option>Quebec</option>
+			<option>Saskatchewan</option>
+		</select>
+	</div>
 
 <!-- Enter your postal code -->
-  <td>
       <div class="form-group">
         <label for="postalCode">Postal Code </label>
         <input type="code" class="form-control" id="postalCode">
       </div>
-  </td>
-</table>
-</tr>
 
 <!-- Select Which Items You Need -->
-<tr>
 <p>Please select and rank the items that you need (up to 3) </p>
-</tr>
 
 <!-- First Item -->
-<tr>
-<table>
-<tr>
-  <td>
-  <label class="mr-sm-2" for="inlineFormCustomSelect">first item</label>
-  </td>
-  <td>
-  <label class="mr-sm-2" for="inlineFormCustomSelect">second item</label>
-  </td>
-  <td>
-  <label class="mr-sm-2" for="inlineFormCustomSelect">third item</label>
-  </td>
-</tr>
-<tr>
-<td>
+
 <div class="form-row align-items-center">
     <div class="col-auto my-1">
+			<label class="mr-sm-2" for="inlineFormCustomSelect">first item</label>
       <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
         <option selected>Choose...</option>
         <option value="1">Laptop</option>
@@ -149,16 +126,14 @@
         <option value="3">Monitor</option>
         <option value="4">Mobile Phone</option>
         <option value="5">Tablet</option>
-        <option value="6">Charger</option>
-        <option value="7">Computer Accessories (mouse, keyboard, etc.)</option>
-        <option value="8">Router</option>
+        <option value="6">Computer Accessories (mouse, keyboard, etc.)</option>
+        <option value="7">Router</option>
       </select>
     </div>
-</td>
 <!-- Second item -->
-<td>
 <div class="form-row align-items-center">
     <div class="col-auto my-1">
+			<label class="mr-sm-2" for="inlineFormCustomSelect">second item</label>
       <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
         <option selected>Choose...</option>
         <option value="1">Laptop</option>
@@ -166,16 +141,15 @@
         <option value="3">Monitor</option>
         <option value="4">Mobile Phone</option>
         <option value="5">Tablet</option>
-        <option value="6">Charger</option>
-        <option value="7">Computer Accessories (mouse, keyboard, etc.)</option>
-        <option value="8">Router</option>
+        <option value="6">Computer Accessories (mouse, keyboard, etc.)</option>
+        <option value="7">Router</option>
       </select>
     </div>
-</td>
+
 <!-- Third item -->
-<td>
 <div class="form-row align-items-center">
     <div class="col-auto my-1">
+			  <label class="mr-sm-2" for="inlineFormCustomSelect">third item</label>
       <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
         <option selected>Choose...</option>
         <option value="1">Laptop</option>
@@ -183,38 +157,28 @@
         <option value="3">Monitor</option>
         <option value="4">Mobile Phone</option>
         <option value="5">Tablet</option>
-        <option value="6">Charger</option>
-        <option value="7">Computer Accessories (mouse, keyboard, etc.)</option>
-        <option value="8">Router</option>
+        <option value="6">Computer Accessories (mouse, keyboard, etc.)</option>
+        <option value="7">Router</option>
       </select>
     </div>
-  </td>
-  </tr>
-  </table>
-  </tr>
 
 <!-- Specifications for  -->
-  <tr>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Please list any specifications related to your order</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </form>
-  </tr>
 
 <!-- Reason for request  -->
-  <tr>
       <div class="form-group">
         <label for="requestReason">Please list your reason(s) for the request</label>
         <textarea class="form-control" id="requestReason" rows="3"></textarea>
       </div>
     </form>
-  </tr>
+
 <!-- Submit Button -->
-  <tr>
     <button type="submit" class="btn btn-primary">Submit</button>
-  </tr>
-</table>
+
 
 </body>
 </html>

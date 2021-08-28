@@ -7,6 +7,25 @@ body {
   padding: 10% 10%;
 }
 
+h1 {
+  font-family: 'Righteous', cursive;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Baloo Da 2', sans-serif;
+}
+
+p {
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 25px;
+}
+
 /* Heading Section */
 h1 {
   font-size: 10.5rem;
@@ -24,19 +43,48 @@ h1 {
   background-color: #28ABB9;
 }
 
+/* Benefits */
+.benefits-icons {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.benefits-box {
+  text-align: center;
+  padding: 5%;
+}
+
 /* About Us */
 #about-us {
   background-color: #28ABB9;
 }
 
 .about-us-title {
-
+  text-align: center;
 }
+
+.about-us-hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+.about-us-img {
+  width: 450px;
+  height: 450px;
+}
+
 
 /* Footer */
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
 
+/* How Can I Help? */
+.help-container {
+  padding: 60px 50px;
+  background-color: #28ABB9;
 }
