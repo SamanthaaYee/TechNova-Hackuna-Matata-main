@@ -1,0 +1,42 @@
+body {
+  position: relative;
+  padding-bottom: 75px;
+}
+
+.padding {
+  padding: 10% 10%;
+}
+
+/* Heading Section */
+h1 {
+  font-size: 10.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.homepage-img {
+  width: 600px;
+  height: 600px;
+}
+
+/* Our Process */
+#our-process {
+  background-color: #28ABB9;
+}
+
+/* About Us */
+#about-us {
+  background-color: #28ABB9;
+}
+
+.about-us-title {
+
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
