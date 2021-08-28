@@ -7,10 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Comfortaa&family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
@@ -24,16 +30,16 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
+        <a class="navbar-brand" href="#">connectivIT</a>
       </div>
 
-        <ul class="nav navbar-nav navbar-right">
-          <li id="Home" class="active"><a href="Home.html">Home</a></li>
-          <li id="About"><a href="AboutUs.html">About</a></li>
-          <li id="Request"><a href="Request.html">Request</a></li>
-          <li id="Donate"><a href="Donate.html">Donate</a></li>
-          <li id="Volunteer"><a href="Volunteer.html">Volunteer</a></li>
-        </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li id="Home" class="active"><a href="Home.html">Home</a></li>
+        <li id="About"><a href="AboutUs.html">About</a></li>
+        <li id="Request"><a href="Request.html">Request</a></li>
+        <li id="Donate"><a href="Donate.html">Donate</a></li>
+        <li id="Volunteer"><a href="Volunteer.html">Volunteer</a></li>
+      </ul>
     </div>
   </nav>
 
@@ -42,14 +48,14 @@
   <div id="heading-section" class="padding">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Headline</h1>
-        <h3>Subheadline</h3>
+        <h1>connectivIT</h1>
+        <h3>Bridging the technological gap between urban and rural communities.</h3>
+        <br>
         <a href="request.html" class="btn btn-primary btn-lg request-button" role="button">Request</a>
         <a href="donate.html" class="btn btn-primary btn-lg donate-button" role="button">Donate</a>
       </div>
       <div class="col-lg-6">
         <img class="homepage-img" src="images/homepage-img.png" alt="">
-        <a class="homepage-link" href="https://storyset.com/technology">Technology illustrations by Storyset</a>
       </div>
     </div>
 
@@ -59,36 +65,143 @@
 
   <div id="our-process">
     <div class="process-text padding">
-      <h2>Our Process</h2>
+      <h2>Our Mission</h2>
       <br>
-      <p>Once the donation form is filled, our team will come pick up the technology at the doorstep. The technology will be wiped of all data to ensure the security of our donors. Our team will travel to certain communities that have requested the
-        tech and deliver it to their homes.</p>
+      <p> connectivIT is dedicated to providing donated technology to low income rural communities, such as Indigenous reserves. The demand for technology has increased due to the COVID-19 pandemic. Many activities, such as completing school work and
+        applying for a job, require the use of technology. Through this program, we are committed to bridging the gap of access to technology between urban and rural communities. </p>
     </div>
   </div>
+
+  <!-- Benefits -->
+    <br><h2>Benefits</h2><br>
+  <section id="benefits" class="row">
+
+    <div class="benefits-box col-lg-4">
+      <img class="benefits-icons" src="images/ewaste.png" alt="e-waste icon">
+      <h3>Reduce e-waste.</h3>
+    </div>
+
+    <div class="benefits-box col-lg-4">
+      <img class="benefits-icons" src="images/help.png" alt="helping icon">
+      <h3>Help support underprivileged communities.</h3>
+    </div>
+
+    <div class="benefits-box col-lg-4">
+      <img class="benefits-icons" src="images/package.png" alt="shipping icon">
+      <h3>Get rid of old technology with ease.</h3>
+    </div>
+
+  </section>
+
   <!-- How Can I Help? -->
-
-
-  <!-- FAQ -->
-
-  <!-- Contact Us -->
-  <div id="Contact-Us" class="padding">
-    <h2>Contact Us</h2>
-    <form action="/contactUs.php">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+  <div id="help" class="help-container text-center">
+    <h2>How Can I Help?</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="images/devices.png" alt="Delivery" height="400">
+        <p>If you have unused technology in your household, consider donating to underprivileged communities. </p>
+        <a href="donate.html" class="btn btn-info btn-lg donate-button" role="button">Donate</a>
       </div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      <div class="col-sm-6">
+        <img src="images/volunteer.png" alt="Devices" height="400">
+        <p>If you don’t have any unused technology to donate, consider volunteering to help our cause. </p>
+        <a href="volunteer.html" class="btn btn-info btn-lg volunteer-button" role="button">Volunteer</a>
       </div>
-      <div class="form-group">
-        <label for="Message">Message:</label>
-        <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    </div>
   </div>
+
+
+
+<!-- FAQ -->
+    <br><h2>FAQ</h2><br>
+<table >
+<tr>
+  <td>
+    <div class="panel panel-default">
+      <div class="panel-heading">How do I know the technology I’m getting is in good shape?</div>
+      <div class="panel-body">
+      No worries! All the technology donated will be quality tested and in working order.
+      </div>
+      </div>
+  </td>
+  <td>
+    <div class="panel panel-default">
+      <div class="panel-heading">How do I know my data is secured when donating?</div>
+      <div class="panel-body">
+        After receiving the technology, we will ensure that all of the device’s data and memory are fully erased in order to ensure that your information will be safe.
+      </div>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+  <div class="panel panel-default">
+    <div class="panel-heading">What kind of technology can I donate/request?</div>
+    <div class="panel-body">
+      Both of our Request and Donate forms have a list of devices that we are collecting.
+    </div>
+  </div>
+  </td>
+  <td>
+  <div class="panel panel-default">
+    <div class="panel-heading">Is there a cost to request my technology?</div>
+    <div class="panel-body">
+      No cost at all! We are a non-profit organization and thanks to our amazing volunteers, we can deliver the technology to your area with no fee.
+    </div>
+  </div>
+  </td>
+</tr>
+<tr>
+  <td</td>
+  <div class="panel panel-default">
+    <div class="panel-heading">Do I have to drop off my donated technology?</div>
+    <div class="panel-body">
+      No, we have volunteers that will stop by to pick it up from your doorstep at a scheduled time.
+    </div>
+  </div>
+</td>
+</tr>
+</table>
+
+
+<!-- Contact Us -->
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+<div id="Contact-Us" class="padding">
+  <h2>Contact Us</h2>
+  <form action="/contactUs.php" target="dummyframe">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="Message">Message:</label>
+      <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+    </div>
+    <button type="reset" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>
+  </form>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Messeage Sent</h4>
+      </div>
+      <div class="modal-body">
+        <p>We will get back to you shortly!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
   <!-- Footer -->
   <footer class="text-center text-white" style="background-color: #f1f1f1;">
@@ -110,8 +223,10 @@
     <!-- Copyright -->
     <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Copyright:
-      <a class="text-dark" href="#">WebSiteName</a>
+      <a class="text-dark" href="#">connectivIT</a>
     </div>
+    <a class="homepage-link" href="https://storyset.com/technology">Technology illustrations by Storyset</a>
+    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   </footer>
 </body>
 
