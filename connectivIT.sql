@@ -1,0 +1,10 @@
+CREATE TABLE `volunteers` (
+  `city` varchar(255) NOT NULL,
+  `firstName` varchar(255) NOT NULL,
+  `lastName` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `postalCode` varchar(255) NOT NULL,
+  `phoneNumber` varchar(255) NOT NULL,
+  `province` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
