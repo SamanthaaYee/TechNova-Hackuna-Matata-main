@@ -8,11 +8,14 @@ body {
 }
 
 h1 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', sans-serif;
+  font-size: 10.5rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', sans-serif;
   font-size: 40px;
   text-align: center;
 }
@@ -21,16 +24,37 @@ h3 {
   font-family: 'Baloo Da 2', sans-serif;
 }
 
+h4 {
+  font-family: 'Baloo Da 2', sans-serif;
+}
+
 p {
-  font-family: 'Baloo Da 2', cursive;
+  font-family: 'Baloo Da 2', sans-serif;
   font-size: 25px;
 }
 
+/* Nav Bar */
+.navbar-brand {
+  font-family: 'Righteous', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #cfcfcf
+}
+
+.navbar {
+  background-color: #002f96;
+}
+
 /* Heading Section */
-h1 {
-  font-size: 10.5rem;
-  line-height: 1.5;
-  font-weight: bold;
+.title {
+  color: #407BFF;
+}
+
+.it {
+  color: #002f96;
 }
 
 .homepage-img {
@@ -38,15 +62,19 @@ h1 {
   height: 600px;
 }
 
-/* Our Process */
-#our-process {
-  background-color: #28ABB9;
+/* Our Mission */
+#our-mission {
+  background-color: #c3dbfa;
+}
+
+.mission-text {
+  text-align: center;
 }
 
 /* Benefits */
 .benefits-icons {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin-bottom: 1rem;
 }
 
@@ -57,7 +85,7 @@ h1 {
 
 /* About Us */
 #about-us {
-  background-color: #28ABB9;
+  background-color: #c3dbfa
 }
 
 .about-us-title {
@@ -75,16 +103,203 @@ h1 {
   height: 450px;
 }
 
+.about-us-text {
+  text-align: right;
+}
 
-/* Footer */
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.problem-title {
+  text-align: left;
+}
+
+.process-title {
+  text-align: right;
 }
 
 /* How Can I Help? */
 .help-container {
   padding: 60px 50px;
-  background-color: #28ABB9;
+  background-color: #c3dbfa;
+}
+
+/*FAQ*/
+ #faqTable{
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+/* Footer */
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Accordian*/
+.accordion {
+  background-color: #407bff;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  margin: 5px;
+}
+.active,
+.accordion:hover {
+  background-color: #c3dbfa;
+  color: #000;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.accordion-panel {
+  padding-bottom: 5%;
+}
+
+/* Forms */
+
+.form-title {
+  text-align: left;
+}
+
+.asterisk {
+  color: red;
+}
+
+.vForm-img {
+  width: 600px;
+  height: 600px;
+  padding-left: 50px;
+}
+
+.rForm-img {
+  width: 1000px;
+  height: 700px;
+  padding-right: 450px;
+}
+
+.dForm-img {
+  width: 600px;
+  height: 600px;
+  padding-left: 100px;
+}
+
+#volunteer-page {
+  padding-top: 5%;
+}
+
+#donate-page {
+  padding-top: 5%;
+}
+
+#request-page {
+  padding-top: 5%;
+}
+
+.header {
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.header-title {
+  text-align: left;
+}
+
+.register {
+  margin-top: 3%;
+}
+
+.register-left {
+  color: #e3e3e3;
+}
+.register-left img {
+  margin-left: -200px;
+}
+.register-left input {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0%;
+  width: 80%;
+  background: #e3e3e3;
+  font-weight: bold;
+  color: #383d41;
+  margin-top: 30%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+.register-right {
+  background: #e3e3e3;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+.register-left p {
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+.register .register-form {
+  padding: 5%;
+}
+.btnRegister {
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+.register .nav-tabs {
+  margin-top: 3%;
+  border: none;
+  background: #0062cc;
+  border-radius: 1.5rem;
+  width: 28%;
+  float: right;
+}
+.register .nav-tabs .nav-link {
+  padding: 2%;
+  height: 34px;
+  font-weight: 600;
+  color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover {
+  border: none;
+}
+.register .nav-tabs .nav-link.active {
+  width: 100px;
+  color: #0062cc;
+  border: 2px solid #0062cc;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.register-heading {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #495057;
+}
+.submit-form {
+  margin-left: -190px;
+  margin-bottom: 10%;
+}
+.submit-form2 {
+  margin-left: 340px;
+  margin-bottom: 5%;
 }

@@ -27,7 +27,7 @@
 
   <!-- Nav Bar -->
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">connectivIT</a>
@@ -48,32 +48,34 @@
   <div id="heading-section" class="padding">
     <div class="row">
       <div class="col-lg-6">
-        <h1>connectivIT</h1>
+        <h1 class="title">connectiv<span class="it">IT</span></h1>
         <h3>Bridging the technological gap between urban and rural communities.</h3>
         <br>
-        <a href="request.html" class="btn btn-primary btn-lg request-button" role="button">Request</a>
-        <a href="donate.html" class="btn btn-primary btn-lg donate-button" role="button">Donate</a>
+        <a href="request.html" class="btn btn-success btn-lg request-button" role="button">Request</a>
+        <a href="donate.html" class="btn btn-success btn-lg donate-button" role="button">Donate</a>
       </div>
       <div class="col-lg-6">
-        <img class="homepage-img" src="images/homepage-img.png" alt="">
+        <img class="homepage-img" src="images/homepage.png" alt="">
       </div>
     </div>
 
   </div>
 
-  <!-- Our Process -->
+  <!-- Our Mission -->
 
-  <div id="our-process">
-    <div class="process-text padding">
+  <div id="our-mission">
+    <div class="padding">
       <h2>Our Mission</h2>
       <br>
-      <p> connectivIT is dedicated to providing donated technology to low income rural communities, such as Indigenous reserves. The demand for technology has increased due to the COVID-19 pandemic. Many activities, such as completing school work and
+      <p class="mission-text"> connectivIT is dedicated to providing donated technology to low income rural communities, such as Indigenous reserves. The demand for technology has increased due to the COVID-19 pandemic. Many activities, such as
+        completing school work and
         applying for a job, require the use of technology. Through this program, we are committed to bridging the gap of access to technology between urban and rural communities. </p>
     </div>
   </div>
 
   <!-- Benefits -->
-    <br><h2>Benefits</h2><br>
+  <br>
+  <h2>Benefits</h2><br>
   <section id="benefits" class="row">
 
     <div class="benefits-box col-lg-4">
@@ -100,108 +102,111 @@
       <div class="col-sm-6">
         <img src="images/devices.png" alt="Delivery" height="400">
         <p>If you have unused technology in your household, consider donating to underprivileged communities. </p>
-        <a href="donate.html" class="btn btn-info btn-lg donate-button" role="button">Donate</a>
+        <a href="donate.html" class="btn btn-success btn-lg donate-button" role="button">Donate</a>
       </div>
       <div class="col-sm-6">
         <img src="images/volunteer.png" alt="Devices" height="400">
         <p>If you don’t have any unused technology to donate, consider volunteering to help our cause. </p>
-        <a href="volunteer.html" class="btn btn-info btn-lg volunteer-button" role="button">Volunteer</a>
+        <a href="volunteer.html" class="btn btn-success btn-lg volunteer-button" role="button">Volunteer</a>
       </div>
     </div>
   </div>
 
 
 
-<!-- FAQ -->
-    <br><h2>FAQ</h2><br>
-<table >
-<tr>
-  <td>
-    <div class="panel panel-default">
-      <div class="panel-heading">How do I know the technology I’m getting is in good shape?</div>
-      <div class="panel-body">
-      No worries! All the technology donated will be quality tested and in working order.
+  <!-- FAQ -->
+  <div class="FAQ">
+    <br>
+    <h2>FAQ</h2><br>
+    <div class="col-md-6 accordion-panel">
+      <button class="accordion">How do I know the technology I’m getting is in good shape?</button>
+      <div class="panel">
+        <h4>No worries! All the technology donated will be quality tested and in working order.</h4>
       </div>
+
+      <button class="accordion">How do I know my data is secured when donating?</button>
+      <div class="panel">
+        <h4>After receiving the technology, we will ensure that all of the device’s data and memory are fully erased in
+          order to ensure that your information will be safe.</h4>
       </div>
-  </td>
-  <td>
-    <div class="panel panel-default">
-      <div class="panel-heading">How do I know my data is secured when donating?</div>
-      <div class="panel-body">
-        After receiving the technology, we will ensure that all of the device’s data and memory are fully erased in order to ensure that your information will be safe.
+
+      <button class="accordion">What kind of technology can I donate/request?</button>
+      <div class="panel">
+        <h4>Both of our Request and Donate forms have a list of devices that we are collecting.</h4>
       </div>
     </div>
-  </td>
-</tr>
-<tr>
-  <td>
-  <div class="panel panel-default">
-    <div class="panel-heading">What kind of technology can I donate/request?</div>
-    <div class="panel-body">
-      Both of our Request and Donate forms have a list of devices that we are collecting.
+    <div class="col-md-6 accordion-panel">
+      <button class="accordion">Is there a cost to request my technology?</button>
+      <div class="panel">
+        <h4>No cost at all! We are a non-profit organization and thanks to our amazing volunteers, we can deliver the
+          technology to your area with no fee.</h4>
+      </div>
+      <button class="accordion">Do I have to drop off my donated technology?</button>
+      <div class="panel">
+        <h4>No, we have volunteers that will stop by to pick it up from your doorstep at a scheduled time.</h4>
+      </div>
+      <button class="accordion">Do I have to drop off my donated technology?</button>
+      <div class="panel">
+        <h4>No, we have volunteers that will stop by to pick it up from your doorstep at a scheduled time.</h4>
+      </div>
     </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </div>
-  </td>
-  <td>
-  <div class="panel panel-default">
-    <div class="panel-heading">Is there a cost to request my technology?</div>
-    <div class="panel-body">
-      No cost at all! We are a non-profit organization and thanks to our amazing volunteers, we can deliver the technology to your area with no fee.
-    </div>
-  </div>
-  </td>
-</tr>
-<tr>
-  <td</td>
-  <div class="panel panel-default">
-    <div class="panel-heading">Do I have to drop off my donated technology?</div>
-    <div class="panel-body">
-      No, we have volunteers that will stop by to pick it up from your doorstep at a scheduled time.
-    </div>
-  </div>
-</td>
-</tr>
-</table>
 
 
-<!-- Contact Us -->
-<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-<div id="Contact-Us" class="padding">
-  <h2>Contact Us</h2>
-  <form action="/contactUs.php" target="dummyframe">
-    <div class="form-group">
-      <label for="name">Name:</label>
-      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-    <div class="form-group">
-      <label for="Message">Message:</label>
-      <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
-    </div>
-    <button type="reset" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>
-  </form>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Messeage Sent</h4>
+  <!-- Contact Us -->
+  <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+  <div id="Contact-Us" class="padding">
+    <h2>Contact Us</h2>
+    <form action="/contactUs.php" target="dummyframe">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
       </div>
-      <div class="modal-body">
-        <p>We will get back to you shortly!</p>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <div class="form-group">
+        <label for="Message">Message:</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+      </div>
+      <button type="reset" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>
+    </form>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Messeage Sent</h4>
+        </div>
+        <div class="modal-body">
+          <p>We will get back to you shortly!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
+  </div>
 
   <!-- Footer -->
   <footer class="text-center text-white" style="background-color: #f1f1f1;">
