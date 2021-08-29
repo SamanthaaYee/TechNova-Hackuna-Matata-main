@@ -8,40 +8,40 @@ body {
 }
 
 h1 {
-  font-family: 'Righteous', sans-serif;
+  font-family: "Righteous", sans-serif;
   font-size: 10.5rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Righteous', sans-serif;
+  font-family: "Righteous", sans-serif;
   font-size: 40px;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Baloo Da 2', sans-serif;
+  font-family: "Baloo Da 2", sans-serif;
 }
 
 h4 {
-  font-family: 'Baloo Da 2', sans-serif;
+  font-family: "Baloo Da 2", sans-serif;
 }
 
 p {
-  font-family: 'Baloo Da 2', sans-serif;
+  font-family: "Baloo Da 2", sans-serif;
   font-size: 25px;
 }
 
 /* Nav Bar */
 .navbar-brand {
-  font-family: 'Righteous', sans-serif;
+  font-family: "Righteous", sans-serif;
   font-size: 2.5rem;
   color: white;
 }
 
 .navbar-brand:hover {
-  color: #cfcfcf
+  color: #cfcfcf;
 }
 
 .navbar {
@@ -50,7 +50,7 @@ p {
 
 /* Heading Section */
 .title {
-  color: #407BFF;
+  color: #407bff;
 }
 
 .it {
@@ -85,7 +85,7 @@ p {
 
 /* About Us */
 #about-us {
-  background-color: #c3dbfa
+  background-color: #c3dbfa;
 }
 
 .about-us-title {
@@ -314,7 +314,7 @@ footer {
 }
 
 .submit-form {
-  margin-left: -190px;
+  margin-left: 365px;
   margin-bottom: 10%;
 }
 .submit-form1 {
