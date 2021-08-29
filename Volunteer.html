@@ -102,7 +102,19 @@
               <!-- Enter your province -->
               <div class="form-group">
                 <label for="provinceName">Province <span class="asterisk">*</span></label>
-                <input type="text" class="form-control" id="provinceName" name="province">
+                <select type="province" class="form-control" id="provinceName" name="province">
+                  <option selected>Choose...</option>
+                  <option>Alberta</option>
+                  <option>British Columbia</option>
+                  <option>Manitoba</option>
+                  <option>New Brunswick</option>
+                  <option>Newfoundland</option>
+                  <option>Nova Scotia</option>
+                  <option>Ontario</option>
+                  <option>Prince Edward Island</option>
+                  <option>Quebec</option>
+                  <option>Saskatchewan</option>
+                </select>
               </div>
               <!-- Enter your email -->
               <div class="form-group">
@@ -111,11 +123,25 @@
               </div>
             </div>
             <div class="col-md-8 submit-form1">
-              <button type="submit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
-            </div>
-            </form>
+               <button type="reset" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>
           </div>
-        </div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Request Sent</h4>
+                </div>
+                <div class="modal-body">
+                  <p>We will get back to you shortly!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </div>
