@@ -43,8 +43,7 @@
       </ul>
     </div>
   </nav>
-
-  <div class="header">
+<div class="header">
     <h2 class="header-title">Volunteer With Us</h2>
     <h4>Once the request is submitted (see below) you will receive an email with different dates and times to deliver the technology.
       Choose the time that's best for you and we will notify the recipients. We will send you all the details about the drop-off point and sanitization.
@@ -63,77 +62,61 @@
         <div class="tab-content" id="myTabContent">
           <h2 class="form-heading">Volunteer Form</h2>
           <div class="row register-form">
+            <form method="POST" action="newVolunteer.php" id="volunteerForm">
             <div class="col-md-6">
               <!-- Enter your first name -->
               <div class="form-group">
                 <label for="firstName">First Name <span class="asterisk">*</span></label>
-                <input type="name1" class="form-control" id="firstName">
+                <input type="text" class="form-control" id="firstName" name="firstName">
               </div>
               <!-- Enter your first address line -->
               <div class="form-group">
                 <label for="firstAddress">Address Line 1 <span class="asterisk">*</span></label>
-                <input type="address1" class="form-control" id="firstAddress">
+                <input type="text" class="form-control" id="firstAddress" name="firstAddress">
               </div>
               <!-- Enter your city / town -->
               <div class="form-group">
                 <label for="cityTown">City / Town <span class="asterisk">*</span></label>
-                <input type="city" class="form-control" id="cityTown">
+                <input type="text" class="form-control" id="cityTown" name="city">
               </div>
               <!-- Enter your postal code -->
               <div class="form-group">
                 <label for="postalCode">Postal Code <span class="asterisk">*</span></label>
-                <input type="code" class="form-control" id="postalCode">
+                <input type="text" class="form-control" id="postalCode" name="postalCode">
               </div>
               <!-- Enter your phone number -->
               <div class="form-group">
                 <label for="phoneNumber">Home / Mobile Phone Number <span class="asterisk">*</span></label>
-                <input type="phone" class="form-control" id="phoneNumber">
+                <input type="tel" class="form-control" id="phoneNumber" name="phone">
               </div>
             </div>
             <div class="col-md-6">
               <!-- Enter your last name -->
               <div class="form-group">
                 <label for="lastName">Last Name <span class="asterisk">*</span></label>
-                <input type="name2" class="form-control" id="lastName">
+                <input type="text" class="form-control" id="lastName" name="lastName">
               </div>
               <!-- Enter your second address line (optional) -->
               <div class="form-group">
                 <label for="secondAddress">Address Line 2</label>
-                <input type="address2" class="form-control" id="secondAddress">
+                <input type="text" class="form-control" id="secondAddress" name="secondAddress">
               </div>
               <!-- Enter your province -->
               <div class="form-group">
                 <label for="provinceName">Province <span class="asterisk">*</span></label>
-                <input type="province" class="form-control" id="provinceName">
+                <input type="text" class="form-control" id="provinceName" name="province">
               </div>
               <!-- Enter your email -->
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email address <span class="asterisk">*</span></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
               </div>
             </div>
+            <div class="col-md-8 submit-form1">
+              <button type="submit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+            </div>
+            </form>
           </div>
-          <div class="col-md-8 submit-form1">
-            <button type="reset" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-md">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Volunteer Request Sent</h4>
-        </div>
-        <div class="modal-body">
-          <p>We will be getting back to you shortly! Thank you for your request!</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
