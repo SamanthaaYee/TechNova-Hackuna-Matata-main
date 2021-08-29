@@ -122,10 +122,15 @@ p {
 }
 
 /*FAQ*/
- #faqTable{
-  margin-left: auto;
-  margin-right: auto;
- }
+.FAQ {
+  padding-bottom: 20%;
+}
+/*Contat-Us*/
+#Contact-Us h2 {
+  position: absolute;
+  margin-left: 34%;
+  margin-top: -5%;
+}
 
 /* Footer */
 footer {
@@ -150,11 +155,13 @@ footer {
   transition: 0.4s;
   margin: 5px;
 }
+
 .active,
 .accordion:hover {
   background-color: #c3dbfa;
   color: #000;
 }
+
 .panel {
   padding: 0 18px;
   display: none;
@@ -167,7 +174,6 @@ footer {
 }
 
 /* Forms */
-
 .form-title {
   text-align: left;
 }
@@ -223,13 +229,15 @@ footer {
 .register-left {
   color: #e3e3e3;
 }
+
 .register-left img {
   margin-left: -200px;
 }
+
 .register-left input {
   border: none;
   border-radius: 1.5rem;
-  padding: 0%;
+  padding: 0;
   width: 80%;
   background: #e3e3e3;
   font-weight: bold;
@@ -238,19 +246,23 @@ footer {
   margin-bottom: 3%;
   cursor: pointer;
 }
+
 .register-right {
   background: #e3e3e3;
   border-top-left-radius: 10% 50%;
   border-bottom-left-radius: 10% 50%;
 }
+
 .register-left p {
   font-weight: lighter;
   padding: 12%;
   margin-top: -9%;
 }
+
 .register .register-form {
   padding: 5%;
 }
+
 .btnRegister {
   float: right;
   margin-top: 10%;
@@ -263,6 +275,7 @@ footer {
   width: 50%;
   cursor: pointer;
 }
+
 .register .nav-tabs {
   margin-top: 3%;
   border: none;
@@ -271,6 +284,7 @@ footer {
   width: 28%;
   float: right;
 }
+
 .register .nav-tabs .nav-link {
   padding: 2%;
   height: 34px;
@@ -279,9 +293,11 @@ footer {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
+
 .register .nav-tabs .nav-link:hover {
   border: none;
 }
+
 .register .nav-tabs .nav-link.active {
   width: 100px;
   color: #0062cc;
@@ -289,15 +305,21 @@ footer {
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
+
 .register-heading {
   text-align: center;
   margin-top: 8%;
   margin-bottom: -15%;
   color: #495057;
 }
+
 .submit-form {
   margin-left: -190px;
   margin-bottom: 10%;
+}
+.submit-form1 {
+  margin-left: 360px;
+  margin-bottom: 5%;
 }
 .submit-form2 {
   margin-left: 340px;
