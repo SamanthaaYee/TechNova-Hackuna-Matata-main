@@ -21,6 +21,9 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
 
+<!-- Icon -->
+  <link rel="icon" href="favicon.ico">
+
 </head>
 
 <body>
@@ -132,7 +135,7 @@
 
       <button class="accordion">What kind of technology can I donate/request?</button>
       <div class="panel">
-        <h4>Both of our Request and Donate forms have a list of devices that we are collecting.</h4>
+        <h4>We will be collecting laptops, desktops, mobile phones, tablets, wifi routers, and computer accessories (mouse, keyboard, docking station, etc.)</h4>
       </div>
     </div>
     <div class="col-md-6 accordion-panel">
@@ -145,9 +148,9 @@
       <div class="panel">
         <h4>No, we have volunteers that will stop by to pick it up from your doorstep at a scheduled time.</h4>
       </div>
-      <button class="accordion">Do I have to drop off my donated technology?</button>
+      <button class="accordion">What COVID-19 precautions are in place?</button>
       <div class="panel">
-        <h4>No, we have volunteers that will stop by to pick it up from your doorstep at a scheduled time.</h4>
+        <h4>Volunteers are fully vaccinated and all devices are thoroughly sanitized at our centres before arriving at your doorstep.</h4>
       </div>
     </div>
     <script>
@@ -155,7 +158,7 @@
       var i;
 
       for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
+        acc[i].addEventListener("click", function() {
           this.classList.toggle("active");
           var panel = this.nextElementSibling;
           if (panel.style.display === "block") {
