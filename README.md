@@ -36,8 +36,8 @@ Donors and receivers start by submitting forms on the website indicating which i
 - Diya Tomar - [LinkedIn](https://www.linkedin.com/in/diyatomar/) - [Email](mailto:diyastomar@gmail.com)
 - Samantha Yee - [LinkedIn](https://www.linkedin.com/in/samanthayee6/)
 
-Devpost Link: [https://devpost.com/software/connectivit](https://devpost.com/software/connectivit)
-Project Link: [https://github.com/SamanthaaYee/TechNova-Hackuna-Matata-main](https://github.com/SamanthaaYee/TechNova-Hackuna-Matata-main)
+* Devpost Link: [https://devpost.com/software/connectivit](https://devpost.com/software/connectivit)
+* Project Link: [https://github.com/SamanthaaYee/TechNova-Hackuna-Matata-main](https://github.com/SamanthaaYee/TechNova-Hackuna-Matata-main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
