@@ -4,9 +4,6 @@
   <ol>
     <li>
       <!--<a href="#about-the-project">About The Project</a>-->
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -32,12 +29,6 @@ Donors and receivers start by submitting forms on the website indicating which i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
-
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
@@ -53,5 +44,3 @@ Project Link: [https://github.com/SamanthaaYee/TechNova-Hackuna-Matata-main](htt
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [product-screenshot]: images/screenshot.png
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
