@@ -22,7 +22,7 @@ connectivIT is a website that facilitates donations between those in need of tec
 
 Donors and receivers start by submitting forms on the website indicating which items they are donating or requesting. Once submitted, donations and requests are matched to best suit the requests. The tech is picked up from the donor’s location, and brought to a centre for quality control, data removal, and sanitization. Finally, the products will be brought to those who requested the technology.
 
-**Home Page:** If users have any questions, they may refer to the FAQ section or send a message in our Contact Us section.
+***Home Page:*** If users have any questions, they may refer to the FAQ section or send a message in our Contact Us section.
 
 **About Page:** Our website provides a summary on why we started the initiative and the entire process of our operation.
 
